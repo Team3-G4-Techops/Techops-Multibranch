@@ -12,6 +12,7 @@ pipeline{
           steps{
             sh 'sudo systemctl status jenkins'
 			      sh 'ps -ef'
+            sh 'echo "Techops multibranch check"'
           }
         }
           stage('sub-job2 - Kingue'){
