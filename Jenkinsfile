@@ -23,6 +23,14 @@ pipeline{
         }
       }
     }
+    stage('Develop Branch Deploy Code - Sithabile'){
+      when {
+        branch 'develop'
+      }
+      steps{
+        sh 'echo "develop branch deploy"'
+      }
+    }
     stage('parallel-job 2'){
       parallel{
         stage('sub-job1 - Constance'){
