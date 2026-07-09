@@ -1,2 +1,2 @@
 # Techops-Multibranch
-multibranch job
+Project to demo a Jenkins multibranch job
